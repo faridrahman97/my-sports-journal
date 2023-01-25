@@ -204,7 +204,7 @@ main {
 .posts {
     grid-column: 2 / 3;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 1em;
     margin: 0 auto;
 }
@@ -300,6 +300,10 @@ footer p {
         display: inline;
     }
 
+    .posts {
+        grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    }
+
     .home-text {
         max-width: 1200px;
         margin: 2.5em auto;
@@ -320,6 +324,7 @@ footer p {
         padding-bottom: 0.35em;
         background-color: #FAFAFA;
     }
+
 
     .nav-menu.active {
         top: 70px;
