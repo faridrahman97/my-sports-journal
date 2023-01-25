@@ -51,6 +51,10 @@ li {
     font-weight: 700;
 }
 
+.blog-image {
+    min-height: 250px;
+}
+
 .bar {
     display: block;
     border: 2px solid black;
@@ -123,8 +127,12 @@ nav {
 
 
 
-.desc {
+.desc, .blog-desc {
     margin-top: 0;
+}
+
+.color {
+    color: #505050;
 }
 
 .title, .blog-title {
@@ -134,7 +142,8 @@ nav {
 }
 
 .blog-title {
-    font-size: 1.2rem;
+    color: #141414;
+    font-size: 1.25rem;
 }
 
 .hero-img div {
@@ -201,6 +210,10 @@ footer p {
         font-size: 1.25rem;
     }
 
+    .blog-title {
+        font-size: 1.35rem;
+    }
+
     .hamburger {
         display: none;
     }
@@ -211,6 +224,10 @@ footer p {
 
     footer {
         padding: 1.35em 0;
+    }
+
+    .blog-image {
+        min-height: 300px;
     }
 
 }

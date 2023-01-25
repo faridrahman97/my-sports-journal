@@ -13,10 +13,10 @@ function renderPosts(initialPosition, lastPosition){
         document.querySelector(".posts").innerHTML += 
             `
             <div class="post">
-                <img src=${blogPosts[i].image} alt=${blogPosts[i].alt}>
-                <p class="date">${blogPosts[i].date}</p>
+                <img class="blog-image" src=${blogPosts[i].image} alt=${blogPosts[i].alt}>
+                <p class="date color">${blogPosts[i].date}</p>
                 <p class="blog-title">${blogPosts[i].title}</p>
-                <p class="desc">${blogPosts[i].desc}</p>
+                <p class="desc color">${blogPosts[i].desc}</p>
             </div>
             `
     }
