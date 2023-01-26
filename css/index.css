@@ -205,7 +205,7 @@ main {
     grid-column: 2 / 3;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 1em;
+    grid-gap: 3em;
     margin: 0 auto;
 }
 
