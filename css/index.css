@@ -22,7 +22,7 @@ body::-webkit-scrollbar{
 .about-me-section{
     flex-direction: column;
     align-items: center;
-    margin: 0 auto;
+    margin: 1em auto;
     text-align: center;
 }
 
@@ -212,6 +212,7 @@ main {
 .view-more-btn {
     text-align: center;
     font-weight: bold;
+    padding-top: 0.5em;
     cursor: pointer;
 }
 
@@ -258,6 +259,7 @@ footer p {
 
     .about-me-section {
         flex-direction: row;
+        justify-content: center;
     }
 
     .about-me-pic {
